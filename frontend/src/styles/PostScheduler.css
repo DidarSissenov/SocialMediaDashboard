@@ -1,0 +1,97 @@
+.post-scheduler {
+  font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.add-post-btn {
+  background-color: #4b3f72;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-post-btn:hover {
+  background-color: #3e3360;
+}
+
+.rbc-calendar {
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rbc-event {
+  background-color: #4b3f72;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rbc-today {
+  background-color: #eaeaea;
+}
+
+/* Modal styles */
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form input, .modal-form textarea, .react-datepicker-wrapper, .react-timekeeper {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.react-timekeeper {
+  background-color: #f8f8f8; /* Light background for the time picker */
+  border: 1px solid #ddd; /* Consistent border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.react-timekeeper__clock {
+  background-color: #fff; /* White background for the clock face */
+}
+
+.react-timekeeper__clock-hand {
+  background-color: #4b3f72; /* Color for the clock hand */
+}
+
+.submit-btn, .cancel-btn {
+  background-color: #4b3f72;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  margin-left: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #3e3360;
+}
+
+.cancel-btn:hover {
+  background-color: #bbb;
+}

@@ -1,0 +1,180 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.dashboard-header nav button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-header nav button:hover {
+  background-color: #0056b3;
+}
+
+.account-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.account-info > div {
+  flex-basis: 48%;
+}
+
+.instagram-info, .twitter-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.media-sections {
+  margin-bottom: 20px;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.media-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.media-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.twitter-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tweet-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.loading, .error {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.planned-date {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.tweet-form {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.tweet-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.tweet-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+.tweet-form button {
+  padding: 10px 20px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tweet-form button:hover {
+  background-color: #0d95e8;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block;
+  color: white;
+}
+
+.status.planned {
+  background-color: yellow;
+  color: black;
+}
+
+.status.posted {
+  background-color: blue;
+}
+
+.status.overdue {
+  background-color: red;
+}
+
+.post-actions button {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  /* other button styling */
+}
+
+.status-dropdown {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: blue;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
