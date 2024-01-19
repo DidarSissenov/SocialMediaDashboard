@@ -127,6 +127,12 @@ const Dashboard = () => {
     navigate('/post-scheduler'); 
   };
 
+  //logout button
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    navigate('/login'); 
+  };
+
   if (error) {
     return <div>Error: {error}</div>;
   }
